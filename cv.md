@@ -2,6 +2,8 @@ Polina Mikhailishina
 
 Contacts:
 
-1.pollifriend@mail.ru
+E-mail: pollifriend@mail.ru
 
-2.pollipolinch (telegram)
+Telegram: pollipolinch (telegram)
+
+Phone: +998 91-798-98-03
