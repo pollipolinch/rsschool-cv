@@ -172,4 +172,23 @@ main {
     color: palevioletred;
 }
 
+/* contacts */
+.contacts-point {
+    list-style: none;
+    margin-top: 20px;
+    color: aliceblue;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.contacts-point:hover {
+    color: palevioletred;
+}
+
+.contacts-img {
+    height: 40px;
+    width: 40px;
+   margin-right: 10px;
+}
 
