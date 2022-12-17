@@ -232,5 +232,38 @@ main {
     display: flex;
     justify-content: center;
 }
+/* footer */
+.footer {
+    margin-top: 20px;
+}
 
+.footer-year {
+    margin-top: 80px;
+    font-weight: 300;
+    color: aliceblue;
+    font-size: 25px;
+    margin-bottom: 0px;
+}
+
+.footer-github {
+    font-weight: 300;
+    color: aliceblue;
+    font-size: 25px;
+    margin-top: 70px;
+    text-decoration: none;
+}
+
+.footer-github:hover {
+    color: palevioletred;
+}
+
+.footer-logo {
+    padding-top: 20px;
+    width: 190px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+}
 
