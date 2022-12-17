@@ -145,4 +145,19 @@ main {
     font-size: 20px;
 }
 
+/* skills */
+.skills-point {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    color: aliceblue;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.skills-img {
+    margin-top: 10px;
+    padding-right: 10px;
+}
 
