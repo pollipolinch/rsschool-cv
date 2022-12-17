@@ -160,4 +160,16 @@ main {
     margin-top: 10px;
     padding-right: 10px;
 }
+/* code */
+.pre {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 30px;
+    color: aliceblue;
+}
+
+.pre-color {
+    color: palevioletred;
+}
+
 
