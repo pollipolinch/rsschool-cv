@@ -117,3 +117,32 @@ main {
     color: aliceblue;
     text-align: center;
 }
+/* education */
+.education__text {
+    padding-top: 20px;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 30px;
+    color: aliceblue;
+    text-align: left;
+}
+
+.education-specialty {
+    display: block;
+    font-weight: 200;
+    font-size: 26px;
+    text-align: left;
+}
+
+.mini-line {
+    height: 1px;
+    background: palevioletred
+}
+
+.point {
+    margin-top: 20px;
+    color: aliceblue;
+    font-size: 20px;
+}
+
+
