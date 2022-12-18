@@ -1,1 +1,174 @@
 
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./assets/img/favicon.ico">
+    <title>Document</title>
+</head>
+<body class="background">
+    <header>
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#about-me" class="nav-link">ABOUT ME</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">SKILLS</a></li>
+                    <li class="nav-item"><a href="#code" class="nav-link">CODE</a></li>
+                    <li class="nav-item"><a href="#projects" class="nav-link">PROJECTS</a></li>
+                    <li class="nav-item"><a href="#contacts" class="nav-link">CONTACTS</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="container main-container">
+            <section class="my" id="my-foto">
+                <img class="about-me__my-foto" src="./assets/img/my-foto.png" alt="my-foto">
+                <h1 class="about-me__name">POLINA MIKHAILISHINA <br> <span class="about-me__name-dev">FRONTEND
+                        DEVELOPER</span></h1>
+            </section>
+            <section class="section" id="education">
+                <h2 class="section-title">EDUCATION</h2>
+                <div class="line-bottom"></div>
+                <p class="education__text">Saratov Social and Economic Institute <br><br> <span
+                        class="education-specialty"> Specialty: banking </span></p>
+                <div class="mini-line"></div>
+                <h3 class="section-subtitle">CODIFY</h3>
+                <ul>
+                    <li class="point">HTML/CSS</li>
+                    <li class="point">JavaScript</li>
+                </ul>
+                <div class="mini-line"></div>
+                <h4 class="section-subtitle">RS School</h4>
+                <ul>
+                    <li class="point">JS/FE Pre-School(in process)</li>
+                </ul>
+            </section>
+            <section class="section" id="about-me">
+                <h2 class="section-title">ABOUT ME</h2>
+                <div class="line-bottom"></div>
+                <p class="about-me__text">I am 24 years old, I love learning and trying new things. <br>
+                    Half a
+                    year ago I moved to Tashkent and decided to try <br> a new profession for me - Front-end
+                    developer. <br> Every day I study, watch videos and am very motivated by new knowledge.I
+                    like solving logical problems, designing pages, creating games and applicationsю</p>
+                <h4 class="section-subtitle">Languages</h4>
+                <ul>
+                    <li class="point">Russian - native</li>
+                    <li class="point">English - B1</li>
+                </ul>
+            </section>
+            <section class="section" id="skills">
+                <h2 class="section-title">SKILLS</h2>
+                <div class="line-bottom"></div>
+                <ul>
+                    <li class="skills-point"><img class="skills-img" src="./assets/img/html.png" alt="sign html"> HTML
+                    </li>
+                    <li class="skills-point"><img class="skills-img" src="./assets/img/css.png" alt="sign css"> CSS</li>
+                    <li class="skills-point"><img class="skills-img" src="./assets/img/js.png" alt="sign js"> JavaScript
+                    </li>
+                    <li class="skills-point"><img class="skills-img" src="./assets/img/git.png" alt="sign git"> GitHub
+                    </li>
+                    <li class="skills-point"><img class="skills-img" src="./assets/img/bootstrap.png"
+                            alt="sign bootstrap"> Bootstrap
+                    </li>
+                </ul>
+            </section>
+            <section class="section" id="code">
+                <h2 class="section-title">CODE</h2>
+                <div class="line-bottom"></div>
+                <pre class="pre">
+               <code>
+              <span class="pre-color">let</span> interval = setInterval(() => {
+                     timerNumber = timerNumber - 1
+                       timer.textContent = timerNumber
+                       <span class="pre-color"> if</span> (timerNumber > 0 ) {
+                           gameOver.style.display = 'none'
+                     } <span class="pre-color">else if</span>(timerNumber = 0) {
+                          clearInterval(interval)
+                         gameOver.style.display = 'block'
+                            game.style.display = 'none'
+                      }
+                 }, 1000)
+                         </code>
+             </pre>
+            </section>
+            <section class="section" id="contacts">
+                <h2 class="section-title">CONTACTS</h2>
+                <div class="line-bottom"></div>
+                <ul>
+                    <li class="contacts-point"><img class="contacts-img" src="./assets/img/map.png"
+                            alt="map">Tashkent,Uzbekistan
+                    </li>
+                    <li class="contacts-point"><img class="contacts-img" src="./assets/img/tel.png" alt="phone">
+                        <a href="tel:+998917989803" class="contacts-point" target="_blank">+998
+                            91-798-98-03</a>
+                    </li>
+                    <li class="contacts-point"><img class="contacts-img" src="./assets/img/mail.png" alt="mail">
+                        <a href="mailto:pollifriend@mail.com" class="contacts-point" title="mail"
+                            target="_blank">pollifriend@mail.ru</a>
+                    </li>
+                    <li class="contacts-point"><img class="contacts-img" src="./assets/img/github.png" alt="github">
+                        <a href="https://github.com/pollipolinch" class="contacts-point" title="github"
+                            target="_blank">pollipolinch</a>
+                    </li>
+                    <li class="contacts-point"><img class="contacts-img" src="./assets/img/discord.png" alt="discord">
+                        <a href="https://discord.gg/zUr7wWYPXE" class="contacts-point" title="discord"
+                            target="_blank">Polina #8174</a>
+                    </li>
+                </ul>
+            </section>
+            <section class="section" id="projects">
+                <h2 class="section-title">PROJECTS</h2>
+                <div class="line-bottom"></div>
+                <div class="projects">
+                    <div class="project-academy">
+                        <a target="_blank" href="https://gorgeous-druid-7ae10f.netlify.app/">
+                            <img class="projects-img" src="./assets/img/future-Academy.png" alt="Future Academy"></a>
+                        <h3 class="projects-title">FUTURE ACADEMY</h3>
+                        <div class="projects-technologies">
+                            <img src="./assets/img/html.png" alt="sign html">
+                            <img src="./assets/img/css.png" alt="sign css">
+                        </div>
+                    </div>
+                    <div class="project-pixel">
+                        <a target="_blank" href="https://spiffy-daifuku-cdda4f.netlify.app/">
+                            <img class="projects-img" src="./assets/img/pixel-art-maker.png" alt="Pixel art"></a>
+                        <h3 class="projects-title">PIXEL ART MAKER</h3>
+                        <div class="projects-technologies">
+                            <img src="./assets/img/html.png" alt="sign html">
+                            <img src="./assets/img/css.png" alt="sign css">
+                            <img src="./assets/img/js.png" alt="sign js">
+                        </div>
+                    </div>
+                </div>
+                <div class="project-game">
+                    <a target="_blank" href="https://sparkly-mandazi-5736aa.netlify.app/">
+                        <img class="projects-img__game" src="./assets/img/game.png" alt="My game"></a>
+                    <h3 class="projects-title">CATCH THE CUBE</h3>
+                    <div class="projects-technologies">
+                        <img src="./assets/img/html.png" alt="sign html">
+                        <img src="./assets/img/css.png" alt="sign css">
+                        <img src="./assets/img/js.png" alt="sign js">
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer-container">
+                <h3 class="footer-year">© 2022</h3>
+                <a class="footer-github" href="https://github.com/pollipolinch" target="_blank">pollipolinch</a>
+            <div class="footer-logo"><a href="https://rs.school/js/" target="_blank"><img src="./assets/img/logo.svg" alt="logo RSS"></a></div>
+        </div>
+    </footer>
+</body>
+
+</html>
